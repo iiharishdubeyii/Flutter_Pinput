@@ -26,7 +26,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  smart_auth: ^1.1.1
+  smart_auth:
+    git:
+      url: "https://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@github.com/iiharishdubeyii/flutter_smart_auth.git"
+      ref: fix-android-sdk-34
+
   universal_platform: ^1.0.0+1
 
 dev_dependencies:
